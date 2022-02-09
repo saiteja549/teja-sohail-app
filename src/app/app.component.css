@@ -1,0 +1,61 @@
+
+.Login-Signup-Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+
+.Login-Signup-Buttons{
+    justify-content: center;
+}
+
+.Login-Signup-Buttons button{
+    width: 156px;
+    height: 40px;
+    padding: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.Login-Signup-Buttons button:hover{
+    font-size: 16px;
+}
+
+.Login-Container{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-image: linear-gradient(#9f98e8,#aff6cf);
+}
+
+
+.Unit-Field button{
+    width: 100px;
+    height: 30px;
+}
+
+.Unit-Field caption{
+    margin-left: 15px;
+    font-size: 13px;
+    display: inline;
+}
+
+.Unit-Field label{
+    display: inline-block;
+    vertical-align:middle;
+    text-align: left;
+    height: 30px;
+    width: 150px;
+    padding: 3px;
+}
+
+.Unit-Field input{
+    border: 2px solid black;
+    height: 28px;
+    width: 150px;
+    opacity: 80%;
+    border-radius: 5px;
+}
